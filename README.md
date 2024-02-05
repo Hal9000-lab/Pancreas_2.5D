@@ -3,6 +3,7 @@ The test notebook computes three different pancreas segmentations, one for each 
 
 
 ![](25DUNEt.png)
+Figure 1. 2.D Unet architecture.
 
 In order to work, the notebooks have to be placed in a folder structure on Goolge Drive starting from a root we named PANCREAS_2.5D including the following subfolders_
 * Data
@@ -15,3 +16,4 @@ Sagittal 	(containing resampled lateral images)
 Coronal 	(containing resampled frontal images)
 
 ![](Images.png)
+Figure 2. Example of three image samples with annotation (pancreas and lesion).
