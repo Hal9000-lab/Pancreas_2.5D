@@ -3,7 +3,7 @@ The test notebook computes three different pancreas segmentations, one for each 
 
 
 ![](25DUNEt.png)
-Figure 1. 2.D Unet architecture.
+Figure 1. 2.5D Unet architecture.
 
 In order to work, the notebooks have to be placed in a folder structure on Goolge Drive starting from a root we named PANCREAS_2.5D including the following subfolders_
 * Data
