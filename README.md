@@ -14,4 +14,4 @@ Axial 		(containing original axial images)
 Sagittal 	(containing resampled lateral images)
 Coronal 	(containing resampled frontal images)
 
-![](images.png)
+![](Images.png)
