@@ -1,6 +1,6 @@
 # Segmentation Package Repository
 
-This repository contains the source code of the segmentation package. This package provides the training and test Jupyter notebooks based on a 2D Unet model. The module independently trains three 2D Unet models, namely axial, sagittal, and coronal models, and merges the results to attain an equivalent 2.5D segmentation network (see Figure 1). The training notebook (`00_Pancreas_Segmentation_2DUnet.ipynb`) loads the data and the labels, arranges and prepares them, builds the Unet model, runs the training, and stores the weights.
+This repository contains the source code of the segmentation package. This package provides the training and test Jupyter notebooks based on a 2.5D Unet model. The module independently trains three 2D Unet models, namely axial, sagittal, and coronal models, and merges the results to attain an equivalent 2.5D segmentation network (see Figure 1). The training notebook (`00_Pancreas_Segmentation_2DUnet.ipynb`) loads the data and the labels, arranges and prepares them, builds the Unet model, runs the training, and stores the weights.
 
 The test notebook computes three different pancreas segmentations, one for each axis (see Figure 2). The final pancreas segmentation is obtained by an integrated multi-view approach based on majority voting.
 
@@ -27,3 +27,17 @@ The `Data` folder must contain three subfolders:
 ## Data Access
 
 Written requests to access the datasets can be submitted to AIMS Academy at [virtualclonedataset@aimsacademy.org](mailto:virtualclonedataset@aimsacademy.org). AIMS Academy will evaluate requests based on the research objectives of the requesting entity. The data provider reserves the right to deny access or impose restrictions. For further information, please visit [https://www.aimsacademy.org/en/ct-image-dataset/](https://www.aimsacademy.org/en/ct-image-dataset/).
+
+## Reference
+
+```
+@article{DLPancreasChallenges,
+  title={Main challenges on the curation of large scale datasets for pancreas segmentation using deep learning in multi-phase CT scans: Focus on cardinality, manual refinement, and annotation quality},
+  author={Cavicchioli, Matteo and Moglia, Andrea and Pierelli, Ludovica and Pugliese, Giacomo and Cerveri, Pietro},
+  journal={Computerized Medical Imaging and Graphics},
+  volume={117},
+  pages={102434},
+  year={2024},
+  publisher={Elsevier}
+}
+```
